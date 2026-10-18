@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İlanlar | EvArkadaşım</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">EA</span>
+      EvArkadaşım
+    </a>
+    <button class="nav-toggle" aria-label="Menüyü aç">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="ilanlar.html" class="active">İlanlar</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="giris.html">Giriş Yap</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="giris.html" class="btn btn-outline btn-sm">Giriş Yap</a>
+      <a href="kayit.html" class="btn btn-primary btn-sm">Kayıt Ol</a>
+    </div>
+  </nav>
+</header>
+
+<main class="container">
+  <div class="page-head">
+    <span class="eyebrow">İlanlar</span>
+    <h1>Sana uygun ev arkadaşı ilanlarını keşfet</h1>
+    <p>Şehir, üniversite, bölüm ve yaşam tarzı tercihlerine göre filtrele.</p>
+  </div>
+
+  <div class="listing-layout section-tight">
+    <!-- FİLTRE PANELİ -->
+    <aside class="filter-panel">
+      <h3>Filtrele</h3>
+
+      <div class="filter-group">
+        <label class="field-label" for="f-sehir">Şehir</label>
+        <select id="f-sehir">
+          <option value="">Tümü</option>
+          <option value="Konya">Konya</option>
+          <option value="İstanbul">İstanbul</option>
+          <option value="Ankara">Ankara</option>
+          <option value="İzmir">İzmir</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="field-label" for="f-bolum">Bölüm</label>
+        <select id="f-bolum">
+          <option value="">Tümü</option>
+          <option value="Bilgisayar Mühendisliği">Bilgisayar Mühendisliği</option>
+          <option value="Mimarlık">Mimarlık</option>
+          <option value="İşletme">İşletme</option>
+          <option value="Tıp">Tıp</option>
+          <option value="Hukuk">Hukuk</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="field-label" for="f-uyku">Uyku Düzeni</label>
+        <select id="f-uyku">
+          <option value="">Farketmez</option>
+          <option value="Sabahçı">Sabahçı</option>
+          <option value="Gececi">Gececi</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label class="field-label">Bütçe (Aylık, ₺)</label>
+        <input type="range" id="f-butce" min="3000" max="12000" step="500" value="12000" style="width:100%;accent-color:var(--color-primary);">
+        <div class="range-value">En fazla <strong id="f-butce-deger">12.000₺</strong></div>
+      </div>
+
+      <div class="filter-group">
+        <label class="field-label">Yaşam Tarzı</label>
+        <div class="checkbox-row">
+          <input type="checkbox" id="f-evcil">
+          <label for="f-evcil">Evcil hayvan dostu</label>
+        </div>
+        <div class="checkbox-row">
+          <input type="checkbox" id="f-sigarasiz">
+          <label for="f-sigarasiz">Sigara içmeyen</label>
+        </div>
+        <div class="checkbox-row">
+          <input type="checkbox" id="f-dogrulanmis">
+          <label for="f-dogrulanmis">Sadece doğrulanmış öğrenciler</label>
+        </div>
+      </div>
+
+      <button class="btn btn-ghost btn-block" id="f-temizle" type="button">Filtreleri Temizle</button>
+    </aside>
+
+    <!-- SONUÇLAR -->
+    <div>
+      <div class="listing-results-head">
+        <p><strong id="sonuc-sayisi">0</strong> ilan bulundu</p>
+      </div>
+
+      <div class="listing-grid" id="listing-grid"></div>
+
+      <div class="empty-state" id="empty-state">
+        <h3>Uygun ilan bulunamadı</h3>
+        <p>Filtrelerini genişletmeyi deneyebilirsin.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      © 2026 EvArkadaşım — Selçuk Üniversitesi Teknoloji Fakültesi, Bilgisayar Mühendisliği.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/listings.js"></script>
+</body>
+</html>

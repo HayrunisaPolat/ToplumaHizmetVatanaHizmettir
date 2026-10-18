@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Giriş Yap | EvArkadaşım</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">EA</span>
+      EvArkadaşım
+    </a>
+    <button class="nav-toggle" aria-label="Menüyü aç">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="ilanlar.html">İlanlar</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="giris.html" class="active">Giriş Yap</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="giris.html" class="btn btn-outline btn-sm">Giriş Yap</a>
+      <a href="kayit.html" class="btn btn-primary btn-sm">Kayıt Ol</a>
+    </div>
+  </nav>
+</header>
+
+<main class="auth-wrap container">
+  <div class="auth-card">
+    <h1>Giriş Yap</h1>
+    <p class="lead">Hesabına giriş yaparak uyumlu ev arkadaşlarını keşfetmeye devam et.</p>
+
+    <form id="giris-form">
+      <div class="form-field">
+        <label for="eposta">Üniversite E-postası</label>
+        <input type="email" id="eposta" required placeholder="adsoyad@ogr.selcuk.edu.tr">
+      </div>
+      <div class="form-field">
+        <label for="sifre">Şifre</label>
+        <input type="password" id="sifre" required placeholder="Şifreniz">
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+    </form>
+
+    <p class="form-footer-text">Hesabın yok mu? <a href="kayit.html">Kayıt ol</a></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      © 2026 EvArkadaşım — Selçuk Üniversitesi Teknoloji Fakültesi, Bilgisayar Mühendisliği.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("giris-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    alert("Prototip aşamasındayız: giriş işlemi, backend geliştirmesi tamamlandığında aktif olacaktır.");
+  });
+</script>
+</body>
+</html>

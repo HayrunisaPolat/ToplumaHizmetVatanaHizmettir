@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kayıt Ol | EvArkadaşım</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">EA</span>
+      EvArkadaşım
+    </a>
+    <button class="nav-toggle" aria-label="Menüyü aç">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="ilanlar.html">İlanlar</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="giris.html">Giriş Yap</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="giris.html" class="btn btn-outline btn-sm">Giriş Yap</a>
+      <a href="kayit.html" class="btn btn-primary btn-sm">Kayıt Ol</a>
+    </div>
+  </nav>
+</header>
+
+<main class="auth-wrap container">
+  <div class="auth-card">
+    <h1>Hesap Oluştur</h1>
+    <p class="lead">Üniversite e-postanla kayıt ol, yaşam tarzı tercihlerini belirt.</p>
+
+    <form id="kayit-form">
+      <div class="form-row-2">
+        <div class="form-field">
+          <label for="ad">Ad Soyad</label>
+          <input type="text" id="ad" required placeholder="Ad Soyad">
+        </div>
+        <div class="form-field">
+          <label for="bolum">Bölüm</label>
+          <select id="bolum" required>
+            <option value="">Seçiniz</option>
+            <option>Bilgisayar Mühendisliği</option>
+            <option>Mimarlık</option>
+            <option>İşletme</option>
+            <option>Tıp</option>
+            <option>Hukuk</option>
+            <option>Diğer</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label for="eposta">Üniversite E-postası</label>
+        <input type="email" id="eposta" required placeholder="adsoyad@ogr.selcuk.edu.tr">
+        <span class="badge-verify">🎓 .edu.tr doğrulaması gereklidir</span>
+      </div>
+
+      <div class="form-row-2">
+        <div class="form-field">
+          <label for="sehir">Şehir</label>
+          <select id="sehir" required>
+            <option value="">Seçiniz</option>
+            <option>Konya</option>
+            <option>İstanbul</option>
+            <option>Ankara</option>
+            <option>İzmir</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="butce">Aylık Bütçe Hedefi (₺)</label>
+          <input type="number" id="butce" min="1000" step="250" placeholder="5000">
+        </div>
+      </div>
+
+      <div class="form-row-2">
+        <div class="form-field">
+          <label for="uyku">Uyku Düzeni</label>
+          <select id="uyku">
+            <option value="">Farketmez</option>
+            <option>Sabahçı</option>
+            <option>Gececi</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="sifre">Şifre</label>
+          <input type="password" id="sifre" required placeholder="En az 8 karakter">
+        </div>
+      </div>
+
+      <div class="form-field">
+        <label>Yaşam Tarzı Tercihleri</label>
+        <div class="checkbox-row"><input type="checkbox" id="evcil"><label for="evcil">Evcil hayvanım var / dostuyum</label></div>
+        <div class="checkbox-row"><input type="checkbox" id="sigarasiz"><label for="sigarasiz">Sigara içmiyorum</label></div>
+        <div class="checkbox-row"><input type="checkbox" id="duzenli"><label for="duzenli">Düzenli ders çalışma saatlerim var</label></div>
+      </div>
+
+      <div class="consent-row">
+        <input type="checkbox" id="kvkk" required>
+        <label for="kvkk">
+          <a href="hakkimizda.html#kvkk">Aydınlatma metnini</a> okudum, kişisel verilerimin
+          KVKK kapsamında işlenmesine açık rıza veriyorum.
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Kayıt Ol</button>
+    </form>
+
+    <p class="form-footer-text">Zaten hesabın var mı? <a href="giris.html">Giriş yap</a></p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      © 2026 EvArkadaşım — Selçuk Üniversitesi Teknoloji Fakültesi, Bilgisayar Mühendisliği.
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+  document.getElementById("kayit-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const eposta = document.getElementById("eposta").value.trim();
+    if (!eposta.toLowerCase().endsWith(".edu.tr")) {
+      alert("Lütfen üniversiteye ait bir .edu.tr e-posta adresi kullanın.");
+      return;
+    }
+    alert("Prototip aşamasındayız: kayıt işlemi, backend geliştirmesi tamamlandığında aktif olacaktır.");
+  });
+</script>
+</body>
+</html>
