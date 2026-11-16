@@ -17,6 +17,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 rnd = random.Random(2026)
+rnd2 = random.Random(7)  # yeni alanlar için ayrı akış: mevcut veriyi bozmaz
 BUGUN = date(2026, 11, 15)
 
 KADIN = ["Ayşe", "Zeynep", "Elif", "Merve", "Büşra", "Selin", "Ece", "Defne", "Gizem",
@@ -55,6 +56,9 @@ ISLER = ["Yazılım Geliştirici", "Grafik Tasarımcı", "Hemşire", "Öğretmen
          "İnşaat Mühendisi", "Satış Danışmanı", "Eczane Teknisyeni", "Veri Analisti", "Mimar"]
 YARI_ZAMANLI = ["Yarı zamanlı barista", "Yarı zamanlı dershane asistanı", "Freelance tasarımcı",
                 "Yarı zamanlı yazılımcı", "Kafede part-time çalışıyor", "Özel ders veriyor"]
+
+HOBILER = ["Spor", "Müzik", "Kitap okuma", "Oyun", "Yemek yapma", "Film / Dizi",
+           "Seyahat", "Doğa yürüyüşü", "Fotoğrafçılık", "Teknoloji"]
 
 UYKU = ["erken", "gece", "esnek"]
 CALISMA = ["sessiz", "disari", "esnek"]
@@ -150,6 +154,14 @@ def uret(n):
         else:
             bio += f" {ilce} çevresinde ev arkadaşı arıyorum. " + rnd.choice(KAPANIS_ARIYOR)
 
+        if aranan == "kiralik-ev":
+            oda = rnd2.choices(["paylasimli", "tek-kisilik", "studyo"], weights=[45, 40, 15])[0]
+        else:
+            oda = rnd2.choices(["paylasimli", "tek-kisilik"], weights=[55, 45])[0]
+        hobiler = rnd2.sample(HOBILER, rnd2.randint(2, 4))
+        bio += (" Boş zamanlarımda " + ", ".join(h.lower() for h in hobiler[:-1])
+                + " ve " + hobiler[-1].lower() + " ile ilgilenirim.")
+
         ilan_tarihi = (BUGUN - timedelta(days=rnd.randint(0, 60))).isoformat()
 
         kullanicilar.append({
@@ -170,6 +182,8 @@ def uret(n):
             "dogrulanmis": dogrulanmis,
             "butce": butce,
             "ev": ev,
+            "odaTipi": oda,  # paylasimli | tek-kisilik | studyo
+            "hobiler": hobiler,
             "uyku": uyku,
             "calismaDuzeni": calisma,
             "evcilHayvan": hayvan,

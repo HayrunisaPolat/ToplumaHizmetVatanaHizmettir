@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Profil | Ortak Evim</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,300;0,500;0,700;0,800;1,300;1,800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kullanıcı Profili | EvArkadaşım</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="assets/css/kullanicilar.css">
 </head>
 <body>
-<div class="page">
 
-  <header class="topbar">
-    <a class="brand" href="index.html" aria-label="Ortak Evim ana sayfa">
-      <svg viewBox="0 0 100 100" aria-hidden="true">
-        <circle cx="50" cy="50" r="50" fill="#5f78ff"/>
-        <path d="M77 50A27 27 0 1 0 63.5 73.4" fill="none" stroke="#fff" stroke-width="14"/>
-        <rect x="23" y="43" width="54" height="12" fill="#fff"/>
-        <path d="M77 50A27 27 0 0 1 63.5 73.4" fill="none" stroke="#ffd54a" stroke-width="14"/>
-      </svg>
-      ORTAK EVİM
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <span class="logo-mark">EA</span>
+      EvArkadaşım
     </a>
-  </header>
+    <button class="nav-toggle" aria-label="Menüyü aç">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="ilanlar.html" class="active">İlanlar</a></li>
+      <li><a href="hakkimizda.html">Hakkımızda</a></li>
+      <li><a href="giris.html">Giriş Yap</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="giris.html" class="btn btn-outline btn-sm">Giriş Yap</a>
+      <a href="kayit.html" class="btn btn-primary btn-sm">Kayıt Ol</a>
+    </div>
+  </nav>
+</header>
 
-  <a class="back" id="backLink" href="kullanicilar.html">← Sonuçlara dön</a>
+<main class="container section-tight">
+  <p><a href="kullanicilar.html">&larr; Kullanıcılara geri dön</a></p>
 
-  <main id="profile"></main>
+  <div class="detail-layout" id="detay-alani">
+    <!-- assets/js/kullanici-detay.js ile doldurulur -->
+  </div>
+</main>
 
-</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-bottom">
+      © 2026 EvArkadaşım — Selçuk Üniversitesi Teknoloji Fakültesi, Bilgisayar Mühendisliği.
+    </div>
+  </div>
+</footer>
 
+<script src="js/auth.js"></script>
+<script src="js/main.js"></script>
 <script src="assets/js/users.js"></script>
-<script src="assets/js/common.js"></script>
-<script src="assets/js/profil.js"></script>
+<script src="assets/js/ortak.js"></script>
+<script src="assets/js/kullanici-detay.js"></script>
 </body>
 </html>

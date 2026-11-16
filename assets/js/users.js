@@ -21,11 +21,16 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Seyahat",
+   "Spor"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Satış Danışmanı olarak çalışıyorum. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. İlkadım'deki 1+1 evimde 1 boş oda var. Kira ve faturaları eşit paylaşırız.",
+  "hakkinda": "Satış Danışmanı olarak çalışıyorum. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. İlkadım'deki 1+1 evimde 1 boş oda var. Kira ve faturaları eşit paylaşırız. Boş zamanlarımda seyahat ve spor ile ilgilenirim.",
   "ilanTarihi": "2026-10-28"
  },
  {
@@ -49,11 +54,18 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Müzik",
+   "Film / Dizi",
+   "Spor",
+   "Yemek yapma"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Anadolu Üniversitesi İşletme bölümünde 2. sınıf öğrencisiyim. Okurken freelance tasarımcı. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Odunpazarı'deki 3+1 evimde 1 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta.",
+  "hakkinda": "Anadolu Üniversitesi İşletme bölümünde 2. sınıf öğrencisiyim. Okurken freelance tasarımcı. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Odunpazarı'deki 3+1 evimde 1 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta. Boş zamanlarımda müzik, film / dizi, spor ve yemek yapma ile ilgilenirim.",
   "ilanTarihi": "2026-10-17"
  },
  {
@@ -77,11 +89,16 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 2
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Seyahat",
+   "Teknoloji"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Yıldız Teknik Üniversitesi Makine Mühendisliği bölümünde 3. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Bahçelievler'deki 2+1 evimde 2 boş oda var. Kira ve faturaları eşit paylaşırız.",
+  "hakkinda": "Yıldız Teknik Üniversitesi Makine Mühendisliği bölümünde 3. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Bahçelievler'deki 2+1 evimde 2 boş oda var. Kira ve faturaları eşit paylaşırız. Boş zamanlarımda seyahat ve teknoloji ile ilgilenirim.",
   "ilanTarihi": "2026-10-10"
  },
  {
@@ -105,11 +122,16 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Fotoğrafçılık",
+   "Seyahat"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Karadeniz Teknik Üniversitesi İngilizce Öğretmenliği bölümünde 1. sınıf öğrencisiyim. Okurken yarı zamanlı dershane asistanı. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Ortahisar'deki 3+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Karadeniz Teknik Üniversitesi İngilizce Öğretmenliği bölümünde 1. sınıf öğrencisiyim. Okurken yarı zamanlı dershane asistanı. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Ortahisar'deki 3+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda fotoğrafçılık ve seyahat ile ilgilenirim.",
   "ilanTarihi": "2026-10-04"
  },
  {
@@ -133,11 +155,18 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 2
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Müzik",
+   "Oyun",
+   "Spor",
+   "Yemek yapma"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Ege Üniversitesi İnşaat Mühendisliği bölümünde yüksek lisans öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Muhabbet kuşum var. Sigara içmiyorum. Konak'deki 2+1 evimde 2 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Ege Üniversitesi İnşaat Mühendisliği bölümünde yüksek lisans öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Muhabbet kuşum var. Sigara içmiyorum. Konak'deki 2+1 evimde 2 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda müzik, oyun, spor ve yemek yapma ile ilgilenirim.",
   "ilanTarihi": "2026-09-25"
  },
  {
@@ -161,11 +190,16 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Oyun",
+   "Spor"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "sorun-degil",
   "sigara": "icer",
-  "hakkinda": "Anadolu Üniversitesi Grafik Tasarım bölümünde yüksek lisans öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvana sorunum yok. Sigara kullanıyorum (balkonda içiyorum). Odunpazarı'deki 2+1 evimde 1 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta.",
+  "hakkinda": "Anadolu Üniversitesi Grafik Tasarım bölümünde yüksek lisans öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvana sorunum yok. Sigara kullanıyorum (balkonda içiyorum). Odunpazarı'deki 2+1 evimde 1 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta. Boş zamanlarımda oyun ve spor ile ilgilenirim.",
   "ilanTarihi": "2026-09-19"
  },
  {
@@ -186,11 +220,16 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 3250,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Yemek yapma",
+   "Seyahat"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Necmettin Erbakan Üniversitesi Gıda Mühendisliği bölümünde 4. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Meram çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Necmettin Erbakan Üniversitesi Gıda Mühendisliği bölümünde 4. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Meram çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda yemek yapma ve seyahat ile ilgilenirim.",
   "ilanTarihi": "2026-10-04"
  },
  {
@@ -211,11 +250,16 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 10750,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Teknoloji",
+   "Yemek yapma"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Yıldız Teknik Üniversitesi İnşaat Mühendisliği bölümünde 4. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Ataşehir çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli.",
+  "hakkinda": "Yıldız Teknik Üniversitesi İnşaat Mühendisliği bölümünde 4. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Ataşehir çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli. Boş zamanlarımda teknoloji ve yemek yapma ile ilgilenirim.",
   "ilanTarihi": "2026-09-17"
  },
  {
@@ -239,11 +283,18 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 1
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Kitap okuma",
+   "Müzik",
+   "Oyun",
+   "Teknoloji"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Yazılım Geliştirici olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvana sorunum yok. Sigara içmiyorum. Etimesgut'deki 1+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Yazılım Geliştirici olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvana sorunum yok. Sigara içmiyorum. Etimesgut'deki 1+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda kitap okuma, müzik, oyun ve teknoloji ile ilgilenirim.",
   "ilanTarihi": "2026-10-26"
  },
  {
@@ -264,11 +315,18 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 3000,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Müzik",
+   "Spor",
+   "Oyun",
+   "Doğa yürüyüşü"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Mimar olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Kocasinan çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Mimar olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Kocasinan çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda müzik, spor, oyun ve doğa yürüyüşü ile ilgilenirim.",
   "ilanTarihi": "2026-10-17"
  },
  {
@@ -292,11 +350,17 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Film / Dizi",
+   "Doğa yürüyüşü",
+   "Fotoğrafçılık"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Orta Doğu Teknik Üniversitesi Grafik Tasarım bölümünde yüksek lisans öğrencisiyim. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Çankaya'deki 3+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "Orta Doğu Teknik Üniversitesi Grafik Tasarım bölümünde yüksek lisans öğrencisiyim. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Çankaya'deki 3+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda film / dizi, doğa yürüyüşü ve fotoğrafçılık ile ilgilenirim.",
   "ilanTarihi": "2026-10-04"
  },
  {
@@ -317,11 +381,16 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 8750,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Kitap okuma",
+   "Oyun"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Satış Danışmanı olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Şişli çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum.",
+  "hakkinda": "Satış Danışmanı olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Şişli çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum. Boş zamanlarımda kitap okuma ve oyun ile ilgilenirim.",
   "ilanTarihi": "2026-10-28"
  },
  {
@@ -342,11 +411,17 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 7500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Fotoğrafçılık",
+   "Doğa yürüyüşü",
+   "Film / Dizi"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Orta Doğu Teknik Üniversitesi Mimarlık bölümünde 1. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Etimesgut çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli.",
+  "hakkinda": "Orta Doğu Teknik Üniversitesi Mimarlık bölümünde 1. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Etimesgut çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli. Boş zamanlarımda fotoğrafçılık, doğa yürüyüşü ve film / dizi ile ilgilenirim.",
   "ilanTarihi": "2026-11-14"
  },
  {
@@ -367,11 +442,17 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 6000,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Teknoloji",
+   "Müzik",
+   "Fotoğrafçılık"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Gazi Üniversitesi Fizyoterapi bölümünde 4. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Yenimahalle çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Gazi Üniversitesi Fizyoterapi bölümünde 4. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Yenimahalle çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda teknoloji, müzik ve fotoğrafçılık ile ilgilenirim.",
   "ilanTarihi": "2026-10-19"
  },
  {
@@ -392,11 +473,16 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 4500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Film / Dizi",
+   "Kitap okuma"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Uludağ Üniversitesi Eczacılık bölümünde 2. sınıf öğrencisiyim. Okurken freelance tasarımcı. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Kedim var. Sigara içmiyorum. Nilüfer çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Uludağ Üniversitesi Eczacılık bölümünde 2. sınıf öğrencisiyim. Okurken freelance tasarımcı. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Kedim var. Sigara içmiyorum. Nilüfer çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda film / dizi ve kitap okuma ile ilgilenirim.",
   "ilanTarihi": "2026-10-27"
  },
  {
@@ -417,11 +503,17 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 7000,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Spor",
+   "Müzik",
+   "Film / Dizi"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Ankara Üniversitesi Matematik bölümünde yüksek lisans öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Keçiören çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Ankara Üniversitesi Matematik bölümünde yüksek lisans öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Keçiören çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda spor, müzik ve film / dizi ile ilgilenirim.",
   "ilanTarihi": "2026-10-03"
  },
  {
@@ -445,11 +537,17 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Teknoloji",
+   "Doğa yürüyüşü",
+   "Fotoğrafçılık"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Marmara Üniversitesi Psikoloji bölümünde 2. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Üsküdar'deki 1+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "Marmara Üniversitesi Psikoloji bölümünde 2. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Üsküdar'deki 1+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda teknoloji, doğa yürüyüşü ve fotoğrafçılık ile ilgilenirim.",
   "ilanTarihi": "2026-10-11"
  },
  {
@@ -473,11 +571,16 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 2
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Yemek yapma",
+   "Doğa yürüyüşü"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Selçuk Üniversitesi Sınıf Öğretmenliği bölümünde 2. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Selçuklu'deki 2+1 evimde 2 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Selçuk Üniversitesi Sınıf Öğretmenliği bölümünde 2. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Selçuklu'deki 2+1 evimde 2 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda yemek yapma ve doğa yürüyüşü ile ilgilenirim.",
   "ilanTarihi": "2026-10-31"
  },
  {
@@ -498,11 +601,16 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 5000,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Spor",
+   "Yemek yapma"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sorun-degil",
   "sigara": "icer",
-  "hakkinda": "Uludağ Üniversitesi Hemşirelik bölümünde 1. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara kullanıyorum (balkonda içiyorum). Nilüfer çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli.",
+  "hakkinda": "Uludağ Üniversitesi Hemşirelik bölümünde 1. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara kullanıyorum (balkonda içiyorum). Nilüfer çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli. Boş zamanlarımda spor ve yemek yapma ile ilgilenirim.",
   "ilanTarihi": "2026-09-16"
  },
  {
@@ -526,11 +634,18 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 2
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Doğa yürüyüşü",
+   "Yemek yapma",
+   "Seyahat",
+   "Film / Dizi"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "İnşaat Mühendisi olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Kedim var. Sigara içmiyorum. Karatay'deki 1+1 evimde 2 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "İnşaat Mühendisi olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Kedim var. Sigara içmiyorum. Karatay'deki 1+1 evimde 2 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda doğa yürüyüşü, yemek yapma, seyahat ve film / dizi ile ilgilenirim.",
   "ilanTarihi": "2026-10-03"
  },
  {
@@ -554,11 +669,17 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Film / Dizi",
+   "Kitap okuma",
+   "Müzik"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "İnşaat Mühendisi olarak çalışıyorum. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Buca'deki 2+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "İnşaat Mühendisi olarak çalışıyorum. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Buca'deki 2+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda film / dizi, kitap okuma ve müzik ile ilgilenirim.",
   "ilanTarihi": "2026-11-05"
  },
  {
@@ -582,11 +703,16 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Yemek yapma",
+   "Kitap okuma"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Veri Analisti olarak çalışıyorum. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Kedim var. Sigara içmiyorum. Kocasinan'deki 3+1 evimde 1 boş oda var. Kira ve faturaları eşit paylaşırız.",
+  "hakkinda": "Veri Analisti olarak çalışıyorum. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Kedim var. Sigara içmiyorum. Kocasinan'deki 3+1 evimde 1 boş oda var. Kira ve faturaları eşit paylaşırız. Boş zamanlarımda yemek yapma ve kitap okuma ile ilgilenirim.",
   "ilanTarihi": "2026-09-19"
  },
  {
@@ -610,11 +736,17 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Seyahat",
+   "Doğa yürüyüşü",
+   "Müzik"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Anadolu Üniversitesi Sınıf Öğretmenliği bölümünde hazırlık öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Odunpazarı'deki 3+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "Anadolu Üniversitesi Sınıf Öğretmenliği bölümünde hazırlık öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvana sorunum yok. Sigara içmiyorum. Odunpazarı'deki 3+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda seyahat, doğa yürüyüşü ve müzik ile ilgilenirim.",
   "ilanTarihi": "2026-09-19"
  },
  {
@@ -638,11 +770,17 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Fotoğrafçılık",
+   "Yemek yapma",
+   "Kitap okuma"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Öğretmen olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Beşiktaş'deki 2+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "Öğretmen olarak çalışıyorum. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Beşiktaş'deki 2+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda fotoğrafçılık, yemek yapma ve kitap okuma ile ilgilenirim.",
   "ilanTarihi": "2026-09-30"
  },
  {
@@ -663,11 +801,18 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 5000,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Yemek yapma",
+   "Seyahat",
+   "Film / Dizi",
+   "Doğa yürüyüşü"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Orta Doğu Teknik Üniversitesi Hukuk bölümünde hazırlık öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Yenimahalle çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum.",
+  "hakkinda": "Orta Doğu Teknik Üniversitesi Hukuk bölümünde hazırlık öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Yenimahalle çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum. Boş zamanlarımda yemek yapma, seyahat, film / dizi ve doğa yürüyüşü ile ilgilenirim.",
   "ilanTarihi": "2026-11-09"
  },
  {
@@ -691,11 +836,16 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 2
   },
+  "odaTipi": "studyo",
+  "hobiler": [
+   "Kitap okuma",
+   "Müzik"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Dokuz Eylül Üniversitesi Makine Mühendisliği bölümünde 4. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Köpeğim var. Sigara içmiyorum. Buca'deki 1+1 evimde 2 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta.",
+  "hakkinda": "Dokuz Eylül Üniversitesi Makine Mühendisliği bölümünde 4. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Köpeğim var. Sigara içmiyorum. Buca'deki 1+1 evimde 2 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta. Boş zamanlarımda kitap okuma ve müzik ile ilgilenirim.",
   "ilanTarihi": "2026-09-28"
  },
  {
@@ -716,11 +866,16 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 5500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Oyun",
+   "Spor"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icer",
-  "hakkinda": "Satış Danışmanı olarak çalışıyorum. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara kullanıyorum (balkonda içiyorum). Keçiören çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Satış Danışmanı olarak çalışıyorum. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara kullanıyorum (balkonda içiyorum). Keçiören çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda oyun ve spor ile ilgilenirim.",
   "ilanTarihi": "2026-10-20"
  },
  {
@@ -741,11 +896,18 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 9500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Kitap okuma",
+   "Yemek yapma",
+   "Fotoğrafçılık",
+   "Spor"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Boğaziçi Üniversitesi İktisat bölümünde 2. sınıf öğrencisiyim. Okurken yarı zamanlı barista. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Ataşehir çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli.",
+  "hakkinda": "Boğaziçi Üniversitesi İktisat bölümünde 2. sınıf öğrencisiyim. Okurken yarı zamanlı barista. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Ataşehir çevresinde ev arkadaşı arıyorum. Ev işlerinde adil bir düzen kurmak benim için önemli. Boş zamanlarımda kitap okuma, yemek yapma, fotoğrafçılık ve spor ile ilgilenirim.",
   "ilanTarihi": "2026-10-25"
  },
  {
@@ -769,11 +931,18 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Film / Dizi",
+   "Teknoloji",
+   "Kitap okuma",
+   "Fotoğrafçılık"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Marmara Üniversitesi İktisat bölümünde 2. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Ataşehir'deki 3+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Marmara Üniversitesi İktisat bölümünde 2. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Ataşehir'deki 3+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda film / dizi, teknoloji, kitap okuma ve fotoğrafçılık ile ilgilenirim.",
   "ilanTarihi": "2026-10-24"
  },
  {
@@ -794,11 +963,18 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 7750,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Spor",
+   "Doğa yürüyüşü",
+   "Seyahat",
+   "Oyun"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Dokuz Eylül Üniversitesi İnşaat Mühendisliği bölümünde 2. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Kedim var. Sigara içmiyorum. Bornova çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Dokuz Eylül Üniversitesi İnşaat Mühendisliği bölümünde 2. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Kedim var. Sigara içmiyorum. Bornova çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda spor, doğa yürüyüşü, seyahat ve oyun ile ilgilenirim.",
   "ilanTarihi": "2026-10-04"
  },
  {
@@ -819,11 +995,16 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 3750,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Doğa yürüyüşü",
+   "Seyahat"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Uludağ Üniversitesi Fizyoterapi bölümünde hazırlık öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Osmangazi çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Uludağ Üniversitesi Fizyoterapi bölümünde hazırlık öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Osmangazi çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda doğa yürüyüşü ve seyahat ile ilgilenirim.",
   "ilanTarihi": "2026-11-10"
  },
  {
@@ -847,11 +1028,16 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Oyun",
+   "Doğa yürüyüşü"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Dokuz Eylül Üniversitesi İktisat bölümünde hazırlık öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Karşıyaka'deki 2+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Dokuz Eylül Üniversitesi İktisat bölümünde hazırlık öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Karşıyaka'deki 2+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda oyun ve doğa yürüyüşü ile ilgilenirim.",
   "ilanTarihi": "2026-10-30"
  },
  {
@@ -875,11 +1061,17 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Teknoloji",
+   "Spor",
+   "Müzik"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Necmettin Erbakan Üniversitesi Mimarlık bölümünde 2. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Meram'deki 2+1 evimde 1 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta.",
+  "hakkinda": "Necmettin Erbakan Üniversitesi Mimarlık bölümünde 2. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Meram'deki 2+1 evimde 1 boş oda var. Evim toplu taşımaya yakın, sakin bir sokakta. Boş zamanlarımda teknoloji, spor ve müzik ile ilgilenirim.",
   "ilanTarihi": "2026-10-16"
  },
  {
@@ -900,11 +1092,16 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 5250,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Fotoğrafçılık",
+   "Müzik"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icer",
-  "hakkinda": "Gazi Üniversitesi Hukuk bölümünde 1. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara kullanıyorum (balkonda içiyorum). Etimesgut çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Gazi Üniversitesi Hukuk bölümünde 1. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara kullanıyorum (balkonda içiyorum). Etimesgut çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda fotoğrafçılık ve müzik ile ilgilenirim.",
   "ilanTarihi": "2026-09-17"
  },
  {
@@ -928,11 +1125,18 @@ window.USERS = [
    "tip": "3+1",
    "bosOda": 1
   },
+  "odaTipi": "studyo",
+  "hobiler": [
+   "Spor",
+   "Müzik",
+   "Oyun",
+   "Yemek yapma"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Necmettin Erbakan Üniversitesi İngilizce Öğretmenliği bölümünde 1. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Meram'deki 3+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "Necmettin Erbakan Üniversitesi İngilizce Öğretmenliği bölümünde 1. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Meram'deki 3+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda spor, müzik, oyun ve yemek yapma ile ilgilenirim.",
   "ilanTarihi": "2026-10-08"
  },
  {
@@ -956,11 +1160,18 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 2
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Yemek yapma",
+   "Film / Dizi",
+   "Fotoğrafçılık",
+   "Oyun"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "KTO Karatay Üniversitesi Yazılım Mühendisliği bölümünde 2. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Karatay'deki 1+1 evimde 2 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "KTO Karatay Üniversitesi Yazılım Mühendisliği bölümünde 2. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Karatay'deki 1+1 evimde 2 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda yemek yapma, film / dizi, fotoğrafçılık ve oyun ile ilgilenirim.",
   "ilanTarihi": "2026-11-04"
  },
  {
@@ -981,11 +1192,17 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 11250,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Doğa yürüyüşü",
+   "Teknoloji",
+   "Fotoğrafçılık"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sahibi",
   "sigara": "icer",
-  "hakkinda": "Boğaziçi Üniversitesi Sınıf Öğretmenliği bölümünde 2. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Kedim var. Sigara kullanıyorum (balkonda içiyorum). Ataşehir çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Boğaziçi Üniversitesi Sınıf Öğretmenliği bölümünde 2. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Kedim var. Sigara kullanıyorum (balkonda içiyorum). Ataşehir çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda doğa yürüyüşü, teknoloji ve fotoğrafçılık ile ilgilenirim.",
   "ilanTarihi": "2026-10-16"
  },
  {
@@ -1009,11 +1226,16 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 1
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Müzik",
+   "Film / Dizi"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sorun-degil",
   "sigara": "icmiyor",
-  "hakkinda": "Marmara Üniversitesi Psikoloji bölümünde hazırlık öğrencisiyim. Okurken yarı zamanlı dershane asistanı. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Bahçelievler'deki 1+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı.",
+  "hakkinda": "Marmara Üniversitesi Psikoloji bölümünde hazırlık öğrencisiyim. Okurken yarı zamanlı dershane asistanı. Gece geç saatlere kadar uyanık olurum. Çalışma düzenim esnek. Evcil hayvana sorunum yok. Sigara içmiyorum. Bahçelievler'deki 1+1 evimde 1 boş oda var. Aidat ve internet dahil, ev eşyalı. Boş zamanlarımda müzik ve film / dizi ile ilgilenirim.",
   "ilanTarihi": "2026-10-04"
  },
  {
@@ -1034,11 +1256,17 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 2750,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Kitap okuma",
+   "Fotoğrafçılık",
+   "Spor"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Selçuk Üniversitesi Eczacılık bölümünde yüksek lisans öğrencisiyim. Okurken kafede part-time çalışıyor. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Kedim var. Sigara içmiyorum. Meram çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Selçuk Üniversitesi Eczacılık bölümünde yüksek lisans öğrencisiyim. Okurken kafede part-time çalışıyor. Genelde erken yatıp erken kalkarım. Çalışma düzenim esnek. Kedim var. Sigara içmiyorum. Meram çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda kitap okuma, fotoğrafçılık ve spor ile ilgilenirim.",
   "ilanTarihi": "2026-10-01"
  },
  {
@@ -1062,11 +1290,18 @@ window.USERS = [
    "tip": "1+1",
    "bosOda": 2
   },
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Film / Dizi",
+   "Kitap okuma",
+   "Spor",
+   "Seyahat"
+  ],
   "uyku": "gece",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği bölümünde 4. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Meram'deki 1+1 evimde 2 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "Necmettin Erbakan Üniversitesi Bilgisayar Mühendisliği bölümünde 4. sınıf öğrencisiyim. Gece geç saatlere kadar uyanık olurum. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Meram'deki 1+1 evimde 2 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda film / dizi, kitap okuma, spor ve seyahat ile ilgilenirim.",
   "ilanTarihi": "2026-09-20"
  },
  {
@@ -1087,11 +1322,18 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 6500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Müzik",
+   "Yemek yapma",
+   "Film / Dizi",
+   "Teknoloji"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Eczane Teknisyeni olarak çalışıyorum. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Muratpaşa çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Eczane Teknisyeni olarak çalışıyorum. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Muratpaşa çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda müzik, yemek yapma, film / dizi ve teknoloji ile ilgilenirim.",
   "ilanTarihi": "2026-09-28"
  },
  {
@@ -1112,11 +1354,16 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 4500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Fotoğrafçılık",
+   "Teknoloji"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "disari",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Orta Doğu Teknik Üniversitesi Hemşirelik bölümünde 2. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Keçiören çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum.",
+  "hakkinda": "Orta Doğu Teknik Üniversitesi Hemşirelik bölümünde 2. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çoğunlukla kütüphanede ya da kafede çalışırım. Evcil hayvan istemiyorum. Sigara içmiyorum. Keçiören çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum. Boş zamanlarımda fotoğrafçılık ve teknoloji ile ilgilenirim.",
   "ilanTarihi": "2026-10-07"
  },
  {
@@ -1140,11 +1387,17 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Oyun",
+   "Teknoloji",
+   "Fotoğrafçılık"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "KTO Karatay Üniversitesi Hemşirelik bölümünde hazırlık öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Meram'deki 2+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum.",
+  "hakkinda": "KTO Karatay Üniversitesi Hemşirelik bölümünde hazırlık öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Köpeğim var. Sigara içmiyorum. Meram'deki 2+1 evimde 1 boş oda var. Birlikte rahat bir yaşam alanı oluşturmak istiyorum. Boş zamanlarımda oyun, teknoloji ve fotoğrafçılık ile ilgilenirim.",
   "ilanTarihi": "2026-10-31"
  },
  {
@@ -1165,11 +1418,18 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 7500,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Oyun",
+   "Teknoloji",
+   "Doğa yürüyüşü",
+   "Kitap okuma"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Dokuz Eylül Üniversitesi İktisat bölümünde hazırlık öğrencisiyim. Genelde erken yatıp erken kalkarım. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Konak çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum.",
+  "hakkinda": "Dokuz Eylül Üniversitesi İktisat bölümünde hazırlık öğrencisiyim. Genelde erken yatıp erken kalkarım. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Evcil hayvan istemiyorum. Sigara içmiyorum. Konak çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum. Boş zamanlarımda oyun, teknoloji, doğa yürüyüşü ve kitap okuma ile ilgilenirim.",
   "ilanTarihi": "2026-10-16"
  },
  {
@@ -1190,11 +1450,16 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 8750,
   "ev": null,
+  "odaTipi": "tek-kisilik",
+  "hobiler": [
+   "Yemek yapma",
+   "Doğa yürüyüşü"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "sahibi",
   "sigara": "icer",
-  "hakkinda": "Marmara Üniversitesi Hemşirelik bölümünde 3. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Kedim var. Sigara kullanıyorum (balkonda içiyorum). Kadıköy çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz.",
+  "hakkinda": "Marmara Üniversitesi Hemşirelik bölümünde 3. sınıf öğrencisiyim. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Kedim var. Sigara kullanıyorum (balkonda içiyorum). Kadıköy çevresinde ev arkadaşı arıyorum. Misafir ve gürültü konusunda anlaşabilirsek sorun olmaz. Boş zamanlarımda yemek yapma ve doğa yürüyüşü ile ilgilenirim.",
   "ilanTarihi": "2026-09-25"
  },
  {
@@ -1215,11 +1480,18 @@ window.USERS = [
   "dogrulanmis": true,
   "butce": 5500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Teknoloji",
+   "Film / Dizi",
+   "Doğa yürüyüşü",
+   "Seyahat"
+  ],
   "uyku": "erken",
   "calismaDuzeni": "disari",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Orta Doğu Teknik Üniversitesi Makine Mühendisliği bölümünde 3. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Köpeğim var. Sigara içmiyorum. Etimesgut çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim.",
+  "hakkinda": "Orta Doğu Teknik Üniversitesi Makine Mühendisliği bölümünde 3. sınıf öğrencisiyim. Genelde erken yatıp erken kalkarım. Çoğunlukla kütüphanede ya da kafede çalışırım. Köpeğim var. Sigara içmiyorum. Etimesgut çevresinde ev arkadaşı arıyorum. Sorumluluk paylaşan, saygılı biriyle anlaşmak isterim. Boş zamanlarımda teknoloji, film / dizi, doğa yürüyüşü ve seyahat ile ilgilenirim.",
   "ilanTarihi": "2026-10-30"
  },
  {
@@ -1243,11 +1515,17 @@ window.USERS = [
    "tip": "2+1",
    "bosOda": 1
   },
+  "odaTipi": "studyo",
+  "hobiler": [
+   "Film / Dizi",
+   "Müzik",
+   "Oyun"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "sessiz",
   "evcilHayvan": "sahibi",
   "sigara": "icmiyor",
-  "hakkinda": "Eczane Teknisyeni olarak çalışıyorum. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Köpeğim var. Sigara içmiyorum. Bornova'deki 2+1 evimde 1 boş oda var. Kira ve faturaları eşit paylaşırız.",
+  "hakkinda": "Eczane Teknisyeni olarak çalışıyorum. Uyku saatlerim oldukça esnek. Derslerime/işlerime evde sessiz bir ortamda çalışmayı severim. Köpeğim var. Sigara içmiyorum. Bornova'deki 2+1 evimde 1 boş oda var. Kira ve faturaları eşit paylaşırız. Boş zamanlarımda film / dizi, müzik ve oyun ile ilgilenirim.",
   "ilanTarihi": "2026-11-05"
  },
  {
@@ -1268,11 +1546,17 @@ window.USERS = [
   "dogrulanmis": false,
   "butce": 4500,
   "ev": null,
+  "odaTipi": "paylasimli",
+  "hobiler": [
+   "Oyun",
+   "Film / Dizi",
+   "Teknoloji"
+  ],
   "uyku": "esnek",
   "calismaDuzeni": "esnek",
   "evcilHayvan": "istemiyor",
   "sigara": "icmiyor",
-  "hakkinda": "Necmettin Erbakan Üniversitesi Hemşirelik bölümünde hazırlık öğrencisiyim. Okurken özel ders veriyor. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Karatay çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum.",
+  "hakkinda": "Necmettin Erbakan Üniversitesi Hemşirelik bölümünde hazırlık öğrencisiyim. Okurken özel ders veriyor. Uyku saatlerim oldukça esnek. Çalışma düzenim esnek. Evcil hayvan istemiyorum. Sigara içmiyorum. Karatay çevresinde ev arkadaşı arıyorum. Temiz ve düzenli, sakin bir ev arkadaşı arıyorum. Boş zamanlarımda oyun, film / dizi ve teknoloji ile ilgilenirim.",
   "ilanTarihi": "2026-09-24"
  }
 ];

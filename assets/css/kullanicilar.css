@@ -1,0 +1,73 @@
+/* Kullanıcı filtreleme / görüntüleme ekranlarına özel eklemeler.
+   Genel görünüm css/style.css'ten gelir; bu dosya yalnızca ek parçaları tanımlar. */
+
+/* Filtre paneli: içerik uzadığında kendi içinde kaydırılır (slayttaki gibi) */
+.filter-panel { max-height: calc(100vh - 110px); overflow-y: auto; }
+.filter-panel .filter-title {
+  display: block; font-size: 0.82rem; font-weight: 700; color: var(--color-text-muted);
+  text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 8px;
+}
+.filter-group input[type="number"] {
+  width: 100%; padding: 10px 12px; border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border); font-size: 0.92rem;
+  background: var(--color-bg); color: var(--color-text);
+}
+.range-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+
+/* Gelişmiş filtre grupları (açılır başlıklar) */
+details.acc {
+  border: 1px solid var(--color-border); border-radius: var(--radius-sm);
+  background: var(--color-surface); margin-bottom: 8px;
+}
+details.acc > summary {
+  list-style: none; cursor: pointer; padding: 11px 12px; font-weight: 700; font-size: 0.88rem;
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+}
+details.acc > summary::-webkit-details-marker { display: none; }
+details.acc > summary::after {
+  content: ""; width: 7px; height: 7px; margin-right: 4px;
+  border-right: 2px solid var(--color-text-muted); border-bottom: 2px solid var(--color-text-muted);
+  transform: rotate(45deg); transition: transform .15s ease;
+}
+details.acc[open] > summary::after { transform: rotate(-135deg); }
+details.acc > summary:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+.acc-body { padding: 2px 12px 12px; }
+.acc-body .sub {
+  margin: 12px 0 6px; font-size: 0.74rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: 0.03em; color: var(--color-text-muted);
+}
+.acc-body .sub:first-child { margin-top: 4px; }
+.acc-body select, .acc-body input[type="text"], .acc-body input[type="number"] {
+  width: 100%; padding: 9px 12px; border-radius: var(--radius-sm); border: 1px solid var(--color-border);
+  font-size: 0.9rem; background: var(--color-bg); color: var(--color-text);
+}
+.acc-body .checkbox-row { margin-bottom: 6px; }
+.filter-actions { display: grid; gap: 10px; margin-top: 16px; }
+
+/* Sonuç başlığı */
+.sort-select {
+  padding: 9px 12px; border-radius: var(--radius-sm); border: 1px solid var(--color-border);
+  background: var(--color-surface); font-size: 0.9rem; color: var(--color-text);
+}
+.note { font-size: 0.8rem; color: var(--color-text-muted); margin: -8px 0 16px; }
+
+/* Kart etiketleri */
+.tag.solid { background: var(--color-primary); color: #fff; }
+.avatar.alt { background: var(--color-primary); }
+
+/* Detay: uyum dökümü */
+.uyum-list { list-style: none; margin: 12px 0 0; padding: 0; }
+.uyum-list li {
+  display: flex; justify-content: space-between; align-items: center; gap: 10px;
+  padding: 8px 0; border-bottom: 1px solid var(--color-border); font-size: 0.88rem;
+}
+.uyum-list li:last-child { border-bottom: none; }
+.uyum-list small { display: block; color: var(--color-text-muted); font-size: 0.75rem; }
+.durum { font-size: 0.72rem; font-weight: 700; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.durum.ok { background: var(--color-primary-light); color: var(--color-primary-dark); }
+.durum.mid { background: #fff4d6; color: #8a6200; }
+.durum.low { background: #ffe9e1; color: var(--color-accent-dark); }
+
+@media (max-width: 900px) {
+  .filter-panel { max-height: none; overflow: visible; }
+}
