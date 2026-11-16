@@ -1,4 +1,4 @@
-/* EvArkadaşım - kullanıcı filtreleme/görüntüleme ekranları için ortak yardımcılar.
+/* RooMee - kullanıcı filtreleme/görüntüleme ekranları için ortak yardımcılar.
    ASP.NET'e geçişte: LABELS -> enum + display name, uyumDetay -> servis katmanı. */
 (function () {
   "use strict";

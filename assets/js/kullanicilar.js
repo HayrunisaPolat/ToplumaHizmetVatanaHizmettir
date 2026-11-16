@@ -1,4 +1,4 @@
-/* EvArkadaşım - kullanıcı filtreleme ve listeleme ekranı (kullanicilar.html).
+/* RooMee - kullanıcı filtreleme ve listeleme ekranı (kullanicilar.html).
    Filtreler "Uygula"ya basılınca uygulanır; sıralama anında değişir.
    Uygulanan filtreler sessionStorage'a yazılır, detaydan geri dönünce korunur.
    ASP.NET'te aynı alanlar bir GET action'ına (FiltreViewModel) bağlanabilir. */

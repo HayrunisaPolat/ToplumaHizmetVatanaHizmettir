@@ -1,4 +1,4 @@
-/* EvArkadaşım - kullanıcı profili görüntüleme ekranı (kullanici-detay.html?id=N). */
+/* RooMee - kullanıcı profili görüntüleme ekranı (kullanici-detay.html?id=N). */
 (function () {
   "use strict";
   const { LABELS, maskName, initials, fmtTL, esc, formatDate, tagsHTML, uyumDetay } = OE;
@@ -8,7 +8,7 @@
   const u = USERS.find((x) => x.id === id);
 
   if (!u) {
-    document.title = "Profil bulunamadı | EvArkadaşım";
+    document.title = "Profil bulunamadı | RooMee";
     alan.style.display = "block";
     alan.innerHTML = `<div class="detail-card text-center"><h3>Profil bulunamadı</h3>
       <p>Aradığınız kullanıcı kaldırılmış ya da bağlantı hatalı olabilir.</p>
@@ -16,7 +16,7 @@
     return;
   }
 
-  document.title = `${maskName(u)} | EvArkadaşım`;
+  document.title = `${maskName(u)} | RooMee`;
   const home = u.aramaTuru === "kiralik-ev";
   const uyum = uyumDetay(u);
 
