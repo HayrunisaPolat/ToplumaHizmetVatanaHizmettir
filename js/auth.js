@@ -27,6 +27,12 @@ function kullaniciBul(adSoyad) {
   return kullanicilariGetir().find(k => normalize(k.adSoyad) === normalize(adSoyad));
 }
 
+// Giriş e-posta ile yapılır (kayıtta alınan .edu.tr adresi).
+function kullaniciBulEposta(eposta) {
+  const normalize = (s) => String(s || "").trim().toLocaleLowerCase("tr-TR");
+  return kullanicilariGetir().find(k => normalize(k.eposta) === normalize(eposta));
+}
+
 function oturumAc(kullanici) {
   localStorage.setItem(OTURUM_ANAHTARI, JSON.stringify({ adSoyad: kullanici.adSoyad }));
 }

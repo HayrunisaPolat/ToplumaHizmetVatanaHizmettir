@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Giriş Yap | RooMee</title>
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="assets/css/giris.css">
 </head>
 <body>
 
@@ -31,18 +32,60 @@
 
 <main class="auth-wrap container">
   <div class="auth-card">
-    <h1>Giriş Yap</h1>
-    <p class="lead">Prototip aşaması: şimdilik yalnızca kayıtlı ad soyadınla giriş yapabilirsin.</p>
 
-    <form id="giris-form">
-      <div class="form-field">
-        <label for="adSoyad">Ad Soyad</label>
-        <input type="text" id="adSoyad" required placeholder="Kayıt olurken girdiğin ad soyad">
+    <!-- ZATEN GİRİŞ YAPILMIŞSA -->
+    <div id="oturum-var" class="oturum-var" hidden>
+      <h1>Zaten giriş yaptın</h1>
+      <p class="lead">Hesabın: <strong id="oturum-ad"></strong></p>
+      <a class="btn btn-primary btn-block" href="index.html">Ana Sayfaya Git</a>
+      <button class="btn btn-ghost btn-block" id="cikis-yap" type="button" style="margin-top:10px">Çıkış Yap</button>
+    </div>
+
+    <!-- ADIM 1: E-POSTA -->
+    <div id="adim-1">
+      <h1>Giriş Yap</h1>
+      <p class="lead">Üniversite e-postanı gir, sana bir doğrulama kodu gönderelim.</p>
+
+      <form id="giris-form-1" novalidate>
+        <div class="form-field">
+          <label for="eposta">Üniversite E-postası</label>
+          <input type="email" id="eposta" name="eposta" autocomplete="email" autofocus required
+                 placeholder="adsoyad@ogr.selcuk.edu.tr" aria-describedby="eposta-hata">
+        </div>
+        <p class="form-error" id="eposta-hata" role="alert"></p>
+        <button type="submit" class="btn btn-primary btn-block">Doğrulama Kodu Gönder</button>
+      </form>
+
+      <p class="form-footer-text">Hesabın yok mu? <a href="kayit.html">Kayıt ol</a></p>
+    </div>
+
+    <!-- ADIM 2: KOD -->
+    <div id="adim-2" hidden>
+      <h1>Kodu Gir</h1>
+      <p class="lead"><strong id="hedef-eposta"></strong> adresine gönderilen 6 haneli kodu gir.</p>
+
+      <div class="demo-kod">
+        📩 <strong>Prototip modu:</strong> Gerçek e-posta gönderimi için bir backend gerekir.
+        Gönderilecek kod burada gösterilir:
+        <strong class="kod" id="demo-kod"></strong>
       </div>
-      <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
-    </form>
 
-    <p class="form-footer-text">Hesabın yok mu? <a href="kayit.html">Kayıt ol</a></p>
+      <form id="giris-form-2" novalidate>
+        <div class="form-field">
+          <label for="kod">Doğrulama Kodu</label>
+          <input type="text" id="kod" class="kod-input" inputmode="numeric" maxlength="6"
+                 autocomplete="one-time-code" required placeholder="••••••" aria-describedby="kod-hata">
+        </div>
+        <p class="form-error" id="kod-hata" role="alert"></p>
+        <button type="submit" class="btn btn-primary btn-block">Giriş Yap</button>
+      </form>
+
+      <p class="form-footer-text auth-links">
+        <button type="button" id="kod-tekrar">Kodu tekrar gönder</button> ·
+        <button type="button" id="eposta-degistir">E-postayı değiştir</button>
+      </p>
+    </div>
+
   </div>
 </main>
 
@@ -56,21 +99,6 @@
 
 <script src="js/auth.js"></script>
 <script src="js/main.js"></script>
-<script>
-  document.getElementById("giris-form").addEventListener("submit", (e) => {
-    e.preventDefault();
-    const adSoyad = document.getElementById("adSoyad").value.trim();
-    const kullanici = kullaniciBul(adSoyad);
-
-    if (!kullanici) {
-      alert("Kayıtlı kullanıcı bulunamadı. Lütfen önce kayıt ol.");
-      return;
-    }
-
-    oturumAc(kullanici);
-    alert(`Giriş başarılı, hoş geldin ${kullanici.adSoyad}!`);
-    window.location.href = "index.html";
-  });
-</script>
+<script src="assets/js/giris.js"></script>
 </body>
 </html>
