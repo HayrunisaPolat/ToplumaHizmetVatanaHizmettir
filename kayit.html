@@ -35,7 +35,7 @@
     <!-- ADIM 1: AD SOYAD + E-POSTA -->
     <div id="adim-1">
       <h1>Hesap Oluştur</h1>
-      <p class="lead">Üniversite e-postanla kayıt ol; öğrencilik durumun e-postana gönderilecek kodla doğrulanır.</p>
+      <p class="lead">E-postanla kayıt ol; adresin, gönderilecek kodla doğrulanır. Öğrenci değilsen de katılabilirsin.</p>
 
       <form id="kayit-form-1">
         <div class="form-field">
@@ -43,9 +43,9 @@
           <input type="text" id="adSoyad" required placeholder="Ad Soyad">
         </div>
         <div class="form-field">
-          <label for="eposta">Üniversite E-postası</label>
-          <input type="email" id="eposta" required placeholder="adsoyad@ogr.selcuk.edu.tr">
-          <span class="badge-verify">🎓 Yalnızca .edu.tr uzantılı e-postalar kabul edilir</span>
+          <label for="eposta">E-posta</label>
+          <input type="email" id="eposta" required placeholder="ornek@gmail.com">
+          <span class="badge-verify">🎓 .edu.tr uzantılı e-postayla “Doğrulanmış öğrenci” rozeti alırsın</span>
         </div>
         <button type="submit" class="btn btn-primary btn-block" style="margin-top:8px;">Doğrulama Kodu Gönder</button>
       </form>
@@ -109,12 +109,12 @@
     const adSoyad = document.getElementById("adSoyad").value.trim();
     const eposta = document.getElementById("eposta").value.trim();
 
-    if (!epostaFormatiGecerliMi(eposta)) {
-      alert("Lütfen geçerli bir üniversite e-postası (.edu.tr) gir.");
+    if (!epostaGecerliMi(eposta)) {
+      alert("Lütfen geçerli bir e-posta adresi gir.");
       return;
     }
-    if (kullaniciBul(adSoyad)) {
-      alert("Bu isimde zaten kayıtlı bir kullanıcı var. Giriş yapmayı deneyebilirsin.");
+    if (kullaniciBulEposta(eposta)) {
+      alert("Bu e-postayla zaten bir hesap var. Giriş yapmayı deneyebilirsin.");
       return;
     }
 
@@ -152,7 +152,8 @@
     const yeniKullanici = {
       adSoyad: bekleyenKayit.adSoyad,
       eposta: bekleyenKayit.eposta,
-      dogrulanmis: true,
+      epostaDogrulandi: true,
+      dogrulanmis: ogrenciEpostasiMi(bekleyenKayit.eposta), // .edu.tr ise "Doğrulanmış öğrenci"
       kayitTarihi: new Date().toISOString(),
     };
     kullaniciEkle(yeniKullanici);

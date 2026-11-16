@@ -27,9 +27,10 @@ function kullaniciBul(adSoyad) {
   return kullanicilariGetir().find(k => normalize(k.adSoyad) === normalize(adSoyad));
 }
 
-// Giriş e-posta ile yapılır (kayıtta alınan .edu.tr adresi).
+// Giriş e-posta ile yapılır (kayıtta alınan adres).
 function kullaniciBulEposta(eposta) {
-  const normalize = (s) => String(s || "").trim().toLocaleLowerCase("tr-TR");
+  // E-posta için dilden bağımsız küçük harf: "tr-TR" ile "I" -> "ı" olur ve eşleşme bozulur.
+  const normalize = (s) => String(s || "").trim().toLowerCase();
   return kullanicilariGetir().find(k => normalize(k.eposta) === normalize(eposta));
 }
 
@@ -54,6 +55,16 @@ function oturumKapat() {
 // olarak, yalnızca o e-posta kutusuna erişimi olan kişi kodu görebilir.
 function epostaFormatiGecerliMi(eposta) {
   return /^[^\s@]+@[^\s@.]+(\.[^\s@.]+)*\.edu\.tr$/i.test(eposta.trim());
+}
+
+// Kayıt ve giriş herhangi bir e-postayla yapılabilir (öğrenci olmayanlar da katılır).
+// Yalnızca .edu.tr adresi "Doğrulanmış öğrenci" rozeti verir.
+function epostaGecerliMi(eposta) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(eposta || "").trim());
+}
+
+function ogrenciEpostasiMi(eposta) {
+  return epostaFormatiGecerliMi(String(eposta || ""));
 }
 
 function dogrulamaKoduUret() {
